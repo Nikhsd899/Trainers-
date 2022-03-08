@@ -6,3 +6,5 @@ class ApplicationController < ActionController::API
         render json: { count: session[:count] }
     end 
 end
+
+
